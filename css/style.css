@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400i|Sawarabi+Mincho');
+
+html, head, body {
+    background-image: url('../backgrounds/MinimalWhiteLight-BG.png');
+    background-size: stretch;
+}
+
+#mainMenu {
+    display: hidden;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.25s;
+    background: black;
+    position: fixed;
+}
+#navOff{
+width: 4vh;
+height: 4vh;
+}
+/* Sawarabi+Mincho|Lato */
+#mainLogo {
+    font-family: 'Sawarabi Mincho';
+    color: rgb(87, 87, 87);
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+#subLogo{
+    font-family: 'Lato';
+    color: rgb(87, 87, 87);
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 15vh;
+}
+.columnCenter {
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+    
+}
+.showToggleText {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-moz-keyframes NAME-YOUR-ANIMATION {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes NAME-YOUR-ANIMATION {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes NAME-YOUR-ANIMATION {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  #blogLink:hover {
+    color: white;
+    transition: color 2s;
+  }
+  #workLink:hover{
+    color: white;
+    transition: color 2s;
+  }
+  #aboutLink:hover {
+    color: white;
+    transition: color 2s;
+  }
